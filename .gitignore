@@ -1,0 +1,9 @@
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+vanity_address_gen.xcodeproj/
+build/
+
+.DS_store
+
