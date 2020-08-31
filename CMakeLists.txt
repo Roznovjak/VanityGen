@@ -12,7 +12,7 @@ IF(NOT "$ENV{OPENSSL_ROOT_DIR}" STREQUAL "")
   set(OPENSSL_INCLUDE_DIR ${OPENSSL_ROOT_DIR}/include)
   message(STATUS "Setting up OpenSSL root and include vars to ${OPENSSL_ROOT_DIR}, ${OPENSSL_INCLUDE_DIR}")
 ENDIF()
-find_package(OpenSSL 1.0 COMPONENTS Crypto REQUIRED)
+find_package(OpenSSL 1.1 COMPONENTS Crypto REQUIRED)
 
 add_executable( vanity_address_gen
     src/main.cpp
